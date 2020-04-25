@@ -1058,6 +1058,11 @@
       "integrity": "sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=",
       "dev": true
     },
+    "css-light-grid": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/css-light-grid/-/css-light-grid-1.1.0.tgz",
+      "integrity": "sha512-8TOPmsp0CI7lbxD+bKB1k2f+lMrCOgLnrBiQKfNGf0HtkAQAK8pxV0/gn0g1B4AUoJsTKyV9IYXLfTHt0CNtnA=="
+    },
     "cssnano": {
       "version": "3.10.0",
       "resolved": "https://registry.npmjs.org/cssnano/-/cssnano-3.10.0.tgz",
