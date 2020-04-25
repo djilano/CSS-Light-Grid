@@ -1,0 +1,54 @@
+/* Grid structure
+   ========================================================================== */
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   @if $debug {
+      margin-bottom: 20px;
+   }   
+
+   @if $debug {
+      div[class^="col"] {
+         padding: 10px;
+         background: #ffd2e8;
+         border: 2px dashed #f78dac;
+         border-radius: 5px;
+         text-align: center;
+      }
+   }
+
+   @each $column in $columns {
+      div.col-#{$column} {  
+         grid-column: auto / span $column;
+   
+         @include mobile {
+            grid-column: auto / span 12;
+         }
+      }
+   }
+   
+   @each $name, $size in $gaps {
+      &.gap-#{$name} {
+         grid-gap: $size
+      }
+   }
+   
+   @each $device, $breakpoint in $media-queries {
+      @media screen and (max-width: #{$breakpoint}) {
+         &.mq-#{$device} {      
+            div[class^="col"] {
+               grid-column: span 12;
+            }
+         }
+      }
+   }
+}
+
+@if $debug {
+   main {
+      max-width: 1200px;
+      width: 100%;
+      margin: 50px auto;
+   }
+}

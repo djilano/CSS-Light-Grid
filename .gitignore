@@ -1,0 +1,22 @@
+npm-debug.log
+node_modules
+
+## Sass
+.sass-cache
+assets/css/*
+assets/js/*
+
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

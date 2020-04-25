@@ -1,0 +1,31 @@
+
+/* ==========================================================================
+   GRID Variables
+   ========================================================================== */
+   
+$debug: false;
+
+// Grid Core variables
+$gap-core: 10px;
+
+// Gap array, gap-core * amount (where amount is + 2)
+$gaps: (
+   xs: $gap-core, 
+   s:  calc(#{$gap-core} * 2), 
+   md: calc(#{$gap-core} * 4), 
+   l:  calc(#{$gap-core} * 6), 
+   xl: calc(#{$gap-core} * 8)
+); 
+
+// Define all available columns, 1 - 12
+$columns: (1,2,3,4,5,6,7,8,9,10,11,12);
+
+// Media query breakpoints
+$desktop: 1024px;
+$tablet: 768px;
+$mobile: 480px;
+
+$media-queries: (
+   desktop: $desktop,
+   tablet: $tablet
+);
