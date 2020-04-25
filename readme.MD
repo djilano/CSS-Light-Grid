@@ -4,9 +4,11 @@ CSS Light Grid is a lightweight CSS grid module that helps you quickly build res
 websites without the hassle of learning the CSS Grid Framework. The grid is based on a
 12 column layout.
 
+
 <p align="center">
   <img width="134" height="54" src="https://djilanosmit.nl/sandbox/csslightgrid/assets/csslightgridlogo.png">
 </p>
+
 
 (Remember that this is an Early release)
 
@@ -19,6 +21,12 @@ websites without the hassle of learning the CSS Grid Framework. The grid is base
 #### [DEMO](https://djilanosmit.nl/sandbox/csslightgrid/)
 
 ## Clone & Build
+
+#### Install Dependencies
+
+```
+npm i
+```
 
 #### Gulp
 Running the following command will grab all files from src/scss and compiles it to style.css (and minified versions) with the build command.
