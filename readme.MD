@@ -6,7 +6,9 @@ websites without the hassle of learning the CSS Grid Framework. The grid is base
 
 
 <p align="center">
+  <br />
   <img width="134" height="54" src="https://djilanosmit.nl/sandbox/csslightgrid/assets/csslightgridlogo.png">
+  <br />
 </p>
 
 
