@@ -15,7 +15,7 @@ websites without the hassle of learning the CSS Grid Framework. The grid is base
 (Remember that this is an Early release)
 
 * < 1.77 KB CSS file size
-* < 40 bytes after Gzip
+* < 400 bytes after Gzip
 * Easy to remember class-names
 * Responsive by default (< 480px)
 * Based on CSS Grid (no floats, no flexbox, no negative margins..)
